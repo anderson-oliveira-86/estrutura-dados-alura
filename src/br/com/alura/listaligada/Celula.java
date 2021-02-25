@@ -11,6 +11,11 @@ public class Celula {
         this.proximo = proximo;
     }
 
+    public Celula(Object elemento) {
+        this.proximo = null;
+        this.elemento = elemento;
+    }
+
     public Object getElemento() {
         return elemento;
     }
